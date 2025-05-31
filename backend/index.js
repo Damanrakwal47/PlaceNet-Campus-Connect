@@ -11,8 +11,11 @@ app.use(
       "http://localhost:3000",
       "https://place-net-campus-connect-g54k.vercel.app",
     ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    credentials: true,
   })
 );
+
 // public folder for users profile
 app.use(
   "/profileImgs",

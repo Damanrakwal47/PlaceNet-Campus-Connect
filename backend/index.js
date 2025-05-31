@@ -5,8 +5,14 @@ const path = require("path");
 const app = express();
 
 app.use(express.json());
-app.use(cors());
-
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "https://place-net-campus-connect-g54k.vercel.app/",
+    ],
+  })
+);
 // public folder for users profile
 app.use(
   "/profileImgs",

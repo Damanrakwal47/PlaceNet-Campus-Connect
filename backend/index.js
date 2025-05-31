@@ -9,7 +9,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://place-net-campus-connect-g54k.vercel.app/",
+      "https://place-net-campus-connect-g54k.vercel.app",
     ],
   })
 );

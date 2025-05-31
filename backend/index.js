@@ -9,7 +9,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://place-net-campus-connect-9gwr.vercel.app/",
+      "https://place-net-campus-connect.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
